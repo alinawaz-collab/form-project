@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .main {
+            width: 1320px;
+            margin: auto;
+            height: 500px;
+            border: 1px solid red;
+        }
+
+        .main-left {
+            width: 620px;
+            height: 500px;
+            float: left;
+        }
+
+        .input-outer {
+            width: 620px;
+            height: 70px;
+            margin: 20px 10px;
+
+        }
+
+        .input-inner {
+            width: 300px;
+            height: 55px;
+            float: left;
+            margin-left: 10px;
+        }
+
+        .input {
+            width: 280px;
+            height: 30px;
+            border-radius: 5px;
+
+        }
+
+        .input-outer-textarea {
+            width: 620px;
+            height: 100px;
+             margin: 20px 10px;
+             margin-left: 20px;
+
+
+        }
+
+        .textarea {
+            width: 580px;
+            height: 80px;
+           
+        }
+        .btn-outer{
+            text-align: center;
+        }
+        .btn{
+            padding: 10px 25px;
+            background-color: blue;
+            color: white;
+            border-radius: 20px;
+            border: none;
+        }
+
+
+        .main-right {
+            width: 650px;
+            height: 500px;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main-left">
+            <form action="">
+                <div class="input-outer">
+                    <div class="input-inner">
+                        <label for="">Name</label>
+                        <input type="text" class="input">
+                    </div>
+                    <div class="input-inner">
+                        <label for="">Phone</label>
+                        <input type="tel" class="input">
+                    </div>
+
+                </div>
+                <div class="input-outer">
+                    <div class="input-inner">
+                        <label for="">Email</label>
+                        <input type="email" class="input">
+                    </div>
+                    <div class="input-inner">
+                        <label for="">Purpose</label>
+                        <select name="" id="" class="input">
+                            <option value="">Select option</option>
+                            <option value="">Course</option>
+                            <option value="">Course</option>
+                            <option value="">Course</option>
+                            <option value="">Course</option>
+                            <option value="">Course</option>
+                            <option value="">Course</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="input-outer-textarea">
+                    <label for="">Message</label>
+                    <textarea name="" id="" class="textarea"></textarea>
+                </div>
+                <div>
+                    <label for="">Course</label>
+                    <datalist id="course">
+                        <option value="html"></option>
+                        <option value="css"></option>
+                        <option value="js"></option>
+                        <option value="jquery"></option>
+                        <option value="php"></option>
+                    </datalist>
+                    <input type="text" class="input" list="course">
+                </div>
+                <div class="btn-outer">
+                    <button class="btn">Send Message</button>
+                </div>
+            </form>
+        </div>
+        <div class="main-right"></div>
+    </div>
+</body>
+
+</html>

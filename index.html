@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <fieldset class="mainOuter">
+        <legend>Enquiry</legend>
+      <input type="hidden" value="wsForm" name="
+      formtype">
+        <div>
+            <label for="">
+                course
+            </label>
+            <input type="checkbox" name="" id="" value="html">HTML
+            <input type="checkbox" name="" id="" value="css">CSS
+            <input type="checkbox" name="" id="" value="js">JS
+            <input type="checkbox" name="" id="" value="python">PYTHON
+        </div>
+
+        <div>
+            <label for="name">Name</label>
+            <input type="text" required pattern="[a-zA-Z]{2,30}" class="inputTag" placeholder="Enter Name">
+        </div>
+        <div>
+            <label for="">Gender</label>
+            <input type="radio" value="male"/>Male <input type="radio" value="female"/>Female
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="email" required placeholder="Enter your email">
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input type="tel" required pattern="[0-9]{10}">
+        </div>
+        <div>
+            <label for="">Country</label>
+            <select class="inputTag">
+                <option value="">Select State</option>
+                <optgroup label="Pakistan">
+                    <option value="">punjab</option>
+                    <option value="">sindh</option>
+                    <option value="">balochistan</option>
+                    <option value="">kpk</option>
+                </optgroup>
+                <optgroup label="India">
+                    <option value="">utrprash</option>
+                    <option value="">up</option>
+                    <option value="">dehli</option>
+                    <option value="">rajistan</option>
+                </optgroup>
+                <optgrouplabel="China"></optgroup>
+                <optgroup label="Nepal"></optgroup>
+                <optgroup label="Srilanka"></optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="">Message</label>
+            <textarea name="" id="" class="textarea"></textarea>
+        </div>
+        <div>
+            <label for="">Photo</label>
+            <input type="file">
+        </div>
+        <div>
+            <label for="">Password</label>
+            <input type="password">
+        </div>
+        <div>
+            <label for="">Color</label>
+            <input type="color">
+        </div>
+        <div>
+            <label for="">Date</label>
+            <input type="date" name="" id="">
+        </div>
+        <div>
+            <label for="">DateTime Local</label>
+            <input type="datetime-local">
+            <label for="">Month</label>
+            <input type="month">
+        </div>
+        <div>
+            <label for="">Week</label>
+            <input type="week">
+        </div>
+        <div>
+            <label for="">Time</label>
+            <input type="time">
+            <label for="">Number</label>
+            <input type="number" min="1" max="10" value="1">
+        </div>
+        <div>
+            <label for="">Range</label>
+            <input type="range" name="" id="" min="10" max="100" value="50">
+        </div>
+        <div>
+            <label for="">URL</label>
+            <input type="url">
+        </div>
+        <div>
+            <label for="">Search</label>
+            <input type="search">
+        </div>
+    
+        <div>
+            <button >Js Event</button>
+            <input type="submit" value="Save">
+        </div>
+        <button type="reset">Reset</button>
+        <input type="image" src="https://deen3evddmddt.cloudfront.net/uploads/covered-projects/meta-icon.svg" width="100" height="30" border="1">
+</fieldset>
+
+    </form>
+</body>
+
+</html>

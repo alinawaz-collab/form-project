@@ -1,0 +1,16 @@
+fieldset{
+    background-color: pink;
+}
+.inputTag{
+    width: 200px;
+    height: 30px;
+}
+.textarea{
+   width:300px ; 
+   height:80px ;
+   resize: none;
+}
+.mainOuter{
+    width: 500px;
+    margin: auto;
+}
